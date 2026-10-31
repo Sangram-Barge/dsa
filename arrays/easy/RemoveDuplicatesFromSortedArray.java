@@ -1,5 +1,10 @@
+
 // Leetcode 26
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=array 
+
+// two pointer runner moves forward till it sees a new element
+// idx will move as we push new lements to it
+
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         int idx = 0, runner = 1;

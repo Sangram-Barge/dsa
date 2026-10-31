@@ -3,6 +3,8 @@ import java.util.Arrays;
 // longest common prefix leetcode 14
 // https://leetcode.com/problems/longest-common-prefix/description/?envType=problem-list-v2&envId=array
 
+// sort first and then look at first and last element
+
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
     StringBuilder sb = new StringBuilder();    
